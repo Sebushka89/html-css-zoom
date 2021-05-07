@@ -24,12 +24,20 @@
 }
 .item{
     background-image: url(../img/Tidus.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 100px;
-    padding: 30px;
+    width: 200px;
+    height: 120px;
+    margin: 30px 15px;
+    position: relative;
+}
+.name{
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    height: 25px;
+    padding: 5px;
 }
 ul{
     display: flex;
@@ -47,8 +55,8 @@ ul:last-child{
     justify-content: center;
     height: 80px;
     align-items: center;
-    color: red;
 }
 ul:last-child li:last-child{
     color: red;
 }
+
