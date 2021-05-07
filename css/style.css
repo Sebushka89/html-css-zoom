@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.nav-container{
+    min-height: 80px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    background-image: url(../img/Tidus.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+}
+ul{
+    display: flex;
+}
+ul li{ 
+    list-style: none;
+    color: whitesmoke;
+    padding: 0 15px;
+}
+ul:first-child, ul:last-child{
+    min-width: 150px;
+}
+ul:last-child{
+    background-color: rgb(74,74,74);
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    color: red;
+}
+ul:last-child li:last-child{
+    color: red;
+}
