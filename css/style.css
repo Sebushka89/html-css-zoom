@@ -13,7 +13,7 @@
     background-color: #222;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 .flex-container {
     display: flex;
@@ -27,8 +27,8 @@
     background-size: cover;
     background-position: center;
     width: 200px;
-    height: 120px;
-    margin: 30px 15px;
+    height: 130px;
+    margin: 30px 10px;
     position: relative;
 }
 .name{
@@ -41,23 +41,31 @@
 }
 ul{
     display: flex;
+    height: 100%;
+    align-items: center;
 }
 ul li{ 
     list-style: none;
     color: whitesmoke;
-    padding: 0 15px;
+    padding: 15px;
+    text-align: center;
 }
 ul:first-child, ul:last-child{
     min-width: 150px;
 }
 ul:last-child{
     background-color: rgb(74,74,74);
-    justify-content: center;
-    height: 80px;
-    align-items: center;
+    justify-content: center; 
 }
 ul:last-child li:last-child{
     color: red;
+}
+li .fas{
+    font-size: 25px;
+    padding: 5px;
+}
+.fa-share-square{
+    color: greenyellow;
 }
 
 
